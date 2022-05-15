@@ -42,6 +42,14 @@ namespace LinearDataStructuresAssignment
             
         }
 
-        
+        public void Remove(T item)
+        {
+            mySet.Remove(item);
+        }
+
+        public void Clear()
+        {
+            mySet.Clear();
+        }
     }
 }
