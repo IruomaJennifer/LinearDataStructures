@@ -62,7 +62,7 @@ namespace LinearDataStructuresAssignment
 
         public ListNode<T>? Find(T item)
         {
-            for (ListNode<T> current = Head; current !=null; current=current.NextNode)
+            for (ListNode<T> current = Head; current != null; current=current.NextNode)
             {
                 if(current.Value.Equals(item))
                 {

@@ -18,6 +18,7 @@ namespace LinearDataStructuresAssignment
         public void Enqueue(T item)
         {
             MyQueue.AddItem(item);
+            var mine = new Queue<T>();
             
         }
 
@@ -30,9 +31,7 @@ namespace LinearDataStructuresAssignment
 
         public void Clear()
         {
-            MyQueue.Head = null;
-            MyQueue.Tail = null;
-            MyQueue.Count = 0;
+            MyQueue.Clear();
         }
         
         public bool Contains(T item)
